@@ -15,6 +15,12 @@ A user-friendly CNC (Command & Control) panel based on CLI that recieves and exe
 
 - Note the original exploit for the vBulletin CVE has been modified with a little bit of tweaking to suit this program.
 
+
+Also a cool feature is, you can use phrases like:
+
+`Hey Makura, root me a vbulletin instance`
+
+It will reply back with input of the URL, it also works with everything else but the PHP shell I retained the special keyword just because it seems to run smoothly that way.
 # Requirements
 - Python 3x (3.5)
 - Requests
@@ -41,3 +47,5 @@ There is a small bug which skips a line and replaces it with the default error m
 # Quick Notice
 
 Do not change the file name, because on CTRL-C or any exits it attempts to fetch for the original file name so unless you got a quick trick for that since I had to be creative here, I wouldn't suggest modifying the file name.
+
+
