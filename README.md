@@ -1,3 +1,5 @@
+
+
 # Makura
 A user-friendly CNC (Command & Control) panel based on CLI that recieves and executes commands.
 ![](https://github.com/p0megranate/makura/blob/master/root.JPG)
@@ -48,4 +50,6 @@ There is a small bug which skips a line and replaces it with the default error m
 
 Do not change the file name, because on CTRL-C or any exits it attempts to fetch for the original file name so unless you got a quick trick for that since I had to be creative here, I wouldn't suggest modifying the file name.
 
-
+# Media
+https://twitter.com/ret2pomegranate
+https://hackerone.com/pomegranate
